@@ -1,0 +1,18 @@
+c:\users\yashitha nadiranga\documents\visual studio 2010\Projects\led1\led1\bin\Debug\led1.exe
+c:\users\yashitha nadiranga\documents\visual studio 2010\Projects\led1\led1\bin\Debug\led1.pdb
+c:\users\yashitha nadiranga\documents\visual studio 2010\Projects\led1\led1\obj\x86\Debug\led1.Form1.resources
+c:\users\yashitha nadiranga\documents\visual studio 2010\Projects\led1\led1\obj\x86\Debug\led1.Properties.Resources.resources
+c:\users\yashitha nadiranga\documents\visual studio 2010\Projects\led1\led1\obj\x86\Debug\led1.csproj.GenerateResource.Cache
+c:\users\yashitha nadiranga\documents\visual studio 2010\Projects\led1\led1\obj\x86\Debug\led1.exe
+c:\users\yashitha nadiranga\documents\visual studio 2010\Projects\led1\led1\obj\x86\Debug\led1.pdb
+c:\users\yashitha nadiranga\documents\visual studio 2010\Projects\led1\led1\bin\Debug\led1.exe.manifest
+c:\users\yashitha nadiranga\documents\visual studio 2010\Projects\led1\led1\bin\Debug\led1.application
+c:\users\yashitha nadiranga\documents\visual studio 2010\Projects\led1\led1\obj\x86\Debug\led1.exe.manifest
+c:\users\yashitha nadiranga\documents\visual studio 2010\Projects\led1\led1\obj\x86\Debug\led1.application
+C:\Users\VJ1030\Documents\Auto Positioner\Test GUI projects\LED\project files\led1\obj\x86\Debug\led1.csproj.AssemblyReference.cache
+C:\Users\VJ1030\Documents\Auto Positioner\Test GUI projects\LED\project files\led1\obj\x86\Debug\led1.Form1.resources
+C:\Users\VJ1030\Documents\Auto Positioner\Test GUI projects\LED\project files\led1\obj\x86\Debug\led1.Properties.Resources.resources
+C:\Users\VJ1030\Documents\Auto Positioner\Test GUI projects\LED\project files\led1\obj\x86\Debug\led1.csproj.GenerateResource.cache
+C:\Users\VJ1030\Documents\Auto Positioner\Test GUI projects\LED\project files\led1\obj\x86\Debug\led1.csproj.CoreCompileInputs.cache
+C:\Users\VJ1030\Documents\Auto Positioner\Test GUI projects\LED\project files\led1\obj\x86\Debug\led1.exe
+C:\Users\VJ1030\Documents\Auto Positioner\Test GUI projects\LED\project files\led1\obj\x86\Debug\led1.pdb

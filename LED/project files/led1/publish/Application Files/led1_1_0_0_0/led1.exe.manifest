@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="led1.exe" version="1.0.0.0" publicKeyToken="284cbe95c47eb38c" language="neutral" processorArchitecture="x86" type="win32" />
+  <description asmv2:iconFile="Aroche-Delta-Settings.ico" xmlns="urn:schemas-microsoft-com:asm.v1" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="led1" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="led1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="led1.exe" size="409088">
+      <assemblyIdentity name="led1" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>taCE8SlgvPbOgatMtAmiRoyKZI8=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="Aroche-Delta-Settings.ico" size="235693">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>EssP8Qpwo444/5hiB8ZwzVhTfPM=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=DESKTOP-TGT5RGU\Yashitha Nadiranga" issuerKeyHash="6e3d771741cc0e774183b8b66007931ec0701df7" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>bxb1zgnF86nE8lB3pRD4ztR97gk=</DigestValue></Reference></SignedInfo><SignatureValue>Kt7f+BOks4HG1IBgwC+sW2wiEg5kja42wVFyC3fl9ryCI7Wut9Sa7CTqTcb+fvrl2DCtod4KMG/2vA9EDEmqp2XhkntAAHRfRPyJBQnVqrSnIDxNu7FVZsyZ//lzEXHNIoKWnwVstOIlADHMd4EtI2GedMCpNp0FszVCu2Q1DUk=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>vQIcfbtVf11ccVTQkbSWURkZEl/SMjGNhXkfkxPJgbj/fcyphlJyjmjteDZwZ35jAB8GBXhX1pFB7NxCjWXe18qbKVooQJJPavd3cHJT1QkU0fuv7+2M4InAushYbpcbrH+PxdwgJ2nk8XN7usYnT2h8Jsoj5aW9myGWDbrLmOk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="09ee7dd4cef810a57750f2c4a9f3c509cef5166f" Description="" Url=""><as:assemblyIdentity name="led1.exe" version="1.0.0.0" publicKeyToken="284cbe95c47eb38c" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-TGT5RGU\Yashitha Nadiranga</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>eWlxOrkcpl6Ariqm2S/Oe7aXHP8=</DigestValue></Reference></SignedInfo><SignatureValue>jqCtfd+sPckH7TJ2AHjXfaqMhlAKbZ3omFlQO7p68ZGWfCCey1sKSuTrr8wcP3re3QCf0vkmoFDWJkKuElq7EPANDZlzb4+uO18nGtKhfZPtIyBLplJcuZrz9etqQEGvwOpMoKfbE06u1rccPb7kvQ9tZcHxXkcDBEWH5vCgVkc=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>vQIcfbtVf11ccVTQkbSWURkZEl/SMjGNhXkfkxPJgbj/fcyphlJyjmjteDZwZ35jAB8GBXhX1pFB7NxCjWXe18qbKVooQJJPavd3cHJT1QkU0fuv7+2M4InAushYbpcbrH+PxdwgJ2nk8XN7usYnT2h8Jsoj5aW9myGWDbrLmOk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIICITCCAYqgAwIBAgIQEpj3lb0mCIFFY5Bg8+K92jANBgkqhkiG9w0BAQUFADBPMU0wSwYDVQQDHkQARABFAFMASwBUAE8AUAAtAFQARwBUADUAUgBHAFUAXABZAGEAcwBoAGkAdABoAGEAIABOAGEAZABpAHIAYQBuAGcAYTAeFw0xODAxMDkwNDA3NDlaFw0xOTAxMDkxMDA3NDlaME8xTTBLBgNVBAMeRABEAEUAUwBLAFQATwBQAC0AVABHAFQANQBSAEcAVQBcAFkAYQBzAGgAaQB0AGgAYQAgAE4AYQBkAGkAcgBhAG4AZwBhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQC9Ahx9u1V/XVxxVNCRtJZRGRkSX9IyMY2FeR+TE8mBuP99zKmGUnKOaO14NnBnfmMAHwYFeFfWkUHs3EKNZd7XypspWihAkk9q93dwclPVCRTR+6/v7YzgicC6yFhulxusf4/F3CAnaeTxc3u6xidPaHwmyiPlpb2bIZYNusuY6QIDAQABMA0GCSqGSIb3DQEBBQUAA4GBAGVsslo3wZtpGejFiEDAIG4lPmUhOayExevdD0LqzOTfnBp74nfOXasKRVtuIL+Pq4vSWzLYnTazNj1wXU4eXx9k9wQSh0x09KMyIU5Gg6SUXhFJUEpNVIyOVpMPBeO5Ii89CLQkYrno7ZZKs6jdHmh6ZvNLdwwdrtZVfDRnxGmo</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>
